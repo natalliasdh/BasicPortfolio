@@ -1,3 +1,9 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+
 body {
     
 margin:0;
@@ -12,6 +18,11 @@ background-repeat: repeat;
     margin: 0 auto;
 
  }
+
+p {
+    margin:15px;
+    line-height: 1.9;
+}
 
  #container {
      position: relative;
@@ -47,9 +58,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 padding-left:20px;
 }
 
-p {
-    line-height: 1.9;
-}
+
 
 nav {
     position: absolute;
@@ -62,10 +71,10 @@ main {
  
    background-color: #ffffff;
    border: 1px solid #dddddd;
-   
-  
-}
 
+}
+#all {   min-height: 100%;
+    margin-bottom: -58px;}
 .imag {
     float: left;
     margin:10px 20px;
@@ -93,17 +102,19 @@ nav li a {
 
 footer {
     clear: both;
-    padding: 20px 0;
+    padding: 0px 0;
     background-color: #666666;
-    border-top: 3px solid #4aaaa5;
-    position:absolute;
-    bottom: 0px;
+    border-top: 8px solid #4aaaa5;
+
    width:100%;
    color: #ffffff;
    text-align: center;
-
+   
+   height:50px;
 
 }
+.push { height:58px;
+clear: both;}
 
 .clearfix {
     overflow: auto;
@@ -114,13 +125,7 @@ hr {
     border: 2px solid #dddddd;
 }
 
-#all {
-  min-height: 100vh;
- 
-    position: relative;
-    
 
-}
 
 .inputs {
     display:block;
@@ -166,5 +171,9 @@ padding:10px;
 width:200px;
 background-color: #4aaaa5;
 text-align: center;
+}
+
+a:hover {
+    color:#4aaaa5;
 }
 
